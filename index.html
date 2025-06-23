@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DataMorphAI - Intelligent Document Processing</title>
+
+  <!-- 🔵 Main CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- 🟣 Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+
+  <!-- 🟡 AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .feature-box:hover {
+      transform: translateY(-5px);
+      transition: transform 0.3s ease;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🔵 Navbar -->
+  <nav class="navbar" data-aos="fade-down">
+    <div class="container">
+      <div class="logo">DataMorphAI</div>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#">Solutions</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Plans & Pricing</a></li>
+        <li><a href="signup.html">Sign in</a></li>
+        <li><a href="#">EN</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 🟡 Hero Section -->
+ <section class="hero" data-aos="fade-up">
+  <div class="hero-text">
+    <h1>
+      Unlock the power of<br>
+      your documents with<br>
+      <span style="color: #0077cc;">DATAMORPHAI</span>
+    </h1>
+    <p>Extract, summarize, and edit text using AI-powered OCR and document intelligence.</p>
+    <div class="hero-buttons">
+      <a href="#features" class="btn-light">See Features</a>
+      <a href="signup.html" class="btn-dark">Try for Free</a>
+    </div>
+  </div>
+  <div class="hero-image" data-aos="zoom-in">
+    <div class="scan-container">
+      <img src="hero_section_image.png" alt="Document Preview" class="document-image">
+      <div class="scanner-line"></div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- 🟣 Features Section -->
+  <section id="features" class="features-section">
+    <h2 class="section-title" data-aos="fade-up">Features to Unlock History</h2>
+    <div class="features-grid">
+      <div class="feature-box" data-aos="fade-up" data-aos-delay="100">
+        <img src="ai.png" alt="AI Text Recognition Icon" />
+        <p><strong>AI Text Recognition</strong></p>
+      </div>
+      <div class="feature-box" data-aos="fade-up" data-aos-delay="200">
+        <img src="custom-ai-training.png" alt="Custom AI Training Icon" />
+        <p><strong>Custom AI Training</strong></p>
+      </div>
+      <div class="feature-box" data-aos="fade-up" data-aos-delay="300">
+        <img src="table-recognition.png" alt="Field & Table Recognition Icon" />
+        <p><strong>Field & Table Recognition</strong></p>
+      </div>
+      <div class="feature-box" data-aos="fade-up" data-aos-delay="400">
+        <img src="editor.png" alt="Text Editor Icon" />
+        <p><strong>Powerful Text Editor</strong></p>
+      </div>
+      <div class="feature-box" data-aos="fade-up" data-aos-delay="500">
+        <img src="search.png" alt="Search Tool Icon" />
+        <p><strong>Publishing & Search Tool</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🧪 Try It Out -->
+  <section id="try-it-out" style="padding: 4rem 2rem; background-color: #f7f1e8;" data-aos="fade-up">
+    <div style="text-align: center; margin-bottom: 2rem;">
+      <h2 style="font-size: 2rem; color: #333;">Try it out</h2>
+    </div>
+    <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.5rem;">
+      <label for="language" style="font-weight: bold;">Language:</label>
+      <select id="language" style="padding: 0.5rem; border-radius: 5px; border: 1px solid #ccc;">
+        <option value="english">English</option>
+        <option value="hindi">Hindi</option>
+        <option value="french">French</option>
+      </select>
+    </div>
+    <div class="upload-preview-container">
+      <div class="upload-box" data-aos="zoom-in-right">
+        <p>Drag an image here<br><strong>or</strong></p>
+        <input type="file" id="demo-upload" accept="image/*" />
+        <p style="font-size: 0.8rem; color: #666;">PNG or JPG up to 10 MB</p>
+      </div>
+      <div class="output-box" data-aos="zoom-in-left">
+        <h4>Preview Output</h4>
+        <div id="demo-preview" style="font-style: italic; color: #555;"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- tackle old data -->
+  <section id="document-help" style="padding: 4rem 2rem; background-color: #ffffff;">
+    <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 2rem; max-width: 1200px; margin: auto;">
+      <div style="flex: 1 1 500px;" data-aos="fade-right">
+        <h2 style="font-size: 2rem; color: #1d3557; margin-bottom: 1rem;">
+          Tackle the Historical Document Dilemma
+        </h2>
+        <p style="font-size: 1.1rem; color: #333; margin-bottom: 1rem;">
+          Navigate the complexities of historical documents with ease.
+        </p>
+        <p style="color: #555; line-height: 1.6;">
+          DataMorphAI is your AI-powered ally, designed to simplify the time-consuming and meticulous process of working with historical documents. With DataMorphAI, you can effortlessly recognize handwritten or printed text, edit extracted content directly in your browser, and even train custom AI models tailored to your unique scripts and layouts. Our platform doesn't just stop at OCR — it enhances your workflow through intelligent summarization, metadata enrichment, and seamless collaboration tools. Plus, a powerful full-text search engine lets you find key insights in seconds.Whether you're a researcher, historian, or archivist, DataMorphAI empowers you to spend less time on tedious tasks and more time doing what matters most: unlocking and understanding the past.
+        </p>
+      </div>
+      <div style="flex: 1 1 400px; text-align: center;" data-aos="fade-left">
+        <img src="tackle_old_data.png" alt="Document OCR Preview" style="max-width: 100%; border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.1);" />
+      </div>
+    </div>
+  </section>
+
+ <!-- 🔵 Document Processing Preview Section (Image Left, Text Right) -->
+<section id="document-gallery" style="padding: 4rem 2rem; background-color: #f9f9f9;">
+  <div style="max-width: 1200px; margin: auto;">
+    <div 
+      style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 2rem;"
+      data-aos="fade-up"
+      data-aos-delay="100"
+    >
+      <!-- Left Image -->
+      <div style="flex: 1 1 500px; text-align: center;" data-aos="zoom-in" data-aos-delay="200">
+        <img src="multi_image.png" alt="Document Gallery Preview" style="max-width: 100%; border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.1);" />
+      </div>
+
+      <!-- Right Text -->
+      <div style="flex: 1 1 500px;" data-aos="fade-left" data-aos-delay="300">
+        <h2 style="font-size: 2rem; color: #1d3557; margin-bottom: 1rem;">
+          Process large amounts of documents
+        </h2>
+        <p style="font-size: 1.1rem; color: #333; margin-bottom: 1rem;">
+          DataMorphAI is designed for working with datasets of any size small or large. Collections that were previously inaccessible can now be read, searched, and prepared for further applications such as research, metadata analysis, or publishing.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- 🔽 FAQ Section -->
+  <section class="faq-section" data-aos="fade-up">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <input type="checkbox" id="faq1" />
+      <label for="faq1">What is DataMorphAI?</label>
+      <div class="faq-content">
+        DataMorphAI is an AI-powered platform that intelligently processes and transcribes your documents using OCR and machine learning techniques.
+      </div>
+    </div>
+    <div class="faq-item">
+      <input type="checkbox" id="faq2" />
+      <label for="faq2">How can I transcribe my documents?</label>
+      <div class="faq-content">
+        You can upload scanned documents or images via our Upload Page. DataMorphAI will automatically detect text using OCR and provide editable outputs.
+      </div>
+    </div>
+    <div class="faq-item">
+      <input type="checkbox" id="faq3" />
+      <label for="faq3">Are my data safe?</label>
+      <div class="faq-content">
+        Yes, your data is encrypted and securely processed. We do not store any document after processing unless you choose to save it.
+      </div>
+    </div>
+    <div class="faq-item">
+      <input type="checkbox" id="faq4" />
+      <label for="faq4">Where can I find more information?</label>
+      <div class="faq-content">
+        Visit our About page or contact our support team for detailed guidance and help.
+      </div>
+    </div>
+  </section>
+
+  <!-- 🔽 CTA Section -->
+  <section class="cta-section" data-aos="zoom-in">
+    <div class="cta-container">
+      <h2>Start unlocking the past with DataMorphAI</h2>
+      <p>Leverage the power of DataMorphAI to get the most out of your historical documents.</p>
+      <a href="signup.html" class="cta-button">Sign up free</a>
+    </div>
+  </section>
+ <!-- ⚫ Footer -->
+  <footer class="footer" data-aos="fade-up">
+    <p>© 2025 DataMorphAI. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+</body>
+</html>
